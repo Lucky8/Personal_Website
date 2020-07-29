@@ -1,0 +1,189 @@
+html, body{
+	font-size:16px;
+	color: #f2f2f2;
+	background-color: black; 
+}
+
+/*some space*/
+.pitch {
+	padding: 50px 0 50px 0;
+	background: #FFFFFF;
+}  
+
+.bg{
+	background-color: #f2f2f2;
+}
+
+.stacktitle{
+	padding: 0 15px;
+	color: black;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  text-align: center;
+  background-color: white;
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*Contact Form*/
+/*form look*/
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+.form-control{
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #dfdfdf;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+	
+}
+
+.w3-btn {width:150px;}
+
+input {
+	height: 45px;
+}
+/*End Contact Form*/
+
+a {
+  color: #dfdfdf;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #363636;
+}
+
+.section-2 {
+	background-color: #000000;
+}
+
+.section-3 {
+	background-color: #363636;
+}
+
+.section-4 {
+	background-color: #000000;
+	padding: 1rem;
+}
+
+a.social-item {
+	color:#000000;
+}
+
+a.social-item:hover {
+	color: #00d1b2;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #00d1b2;
+}
+
+.avatar{
+	height:400px;
+	border-radius: 10%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: black;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}
