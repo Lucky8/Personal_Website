@@ -69,8 +69,20 @@ try {
     $mail->send();
 	
 	//confirmation
-    echo 'Message has been sent';
+    /*echo 'Message has been sent';		<== debugging  */
+	
+	header("Location: https://luckyndlovu.ltechdev.co.za/thankyou.php"); /* Redirect browser */
+
+	/* Make sure that code below does not get executed when we redirect. */
+	exit;
+	
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    /*echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";		<== debugging */
+	
+	
+	header("Location: https://luckyndlovu.ltechdev.co.za/ohno.php"); /* Redirect browser */
+
+	/* Make sure that code below does not get executed when we redirect. */
+	exit;
 }
 ?>
